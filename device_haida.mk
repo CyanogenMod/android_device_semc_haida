@@ -51,4 +51,8 @@ PRODUCT_COPY_FILES += \
 
 #LCD DENSITY
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=240
+    ro.telephony.default_network=0 \
+    ro.telephony.ril_class=semc \
+    wifi.interface=tiwlan0 \
+    ro.sf.lcd_density=240 \
+    wifi.hotspot.ti=1
