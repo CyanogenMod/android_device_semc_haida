@@ -63,13 +63,20 @@ usr/semc/camera/LGI08BN0_IMX105.dat
 usr/semc/camera/LGI08BN1.dat
 usr/semc/camera/LGI08BN1_DW9714.dat
 usr/semc/camera/LGI08BN1_IMX105.dat
+usr/semc/camera/KMO05BN0_BH6476.dat
+usr/semc/camera/KMO05BN0.dat
+usr/semc/camera/KMO05BN0_IMX072.dat
 usr/semc/camera/LM3560_01_flash.dat
+usr/semc/camera/LM3560_00_flash.dat
 usr/semc/camera/SOD08BN0.dat
 usr/semc/camera/SOD08BN0_DW9714.dat
 usr/semc/camera/SOD08BN0_IMX073.dat
 usr/semc/camera/SOD08BN1.dat
 usr/semc/camera/SOD08BN1_DW9714.dat
 usr/semc/camera/SOD08BN1_IMX105.dat
+usr/semc/camera/STW05BN0_BH6476.dat
+usr/semc/camera/STW05BN0.dat
+usr/semc/camera/STW05BN0_IMX072.dat
 
 ## FIRMWARE
 etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs
