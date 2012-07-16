@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
 
 # Init files
 PRODUCT_COPY_FILES += \
-    device/semc/haida/prebuilt/init.semc.usb.rc:root/init.semc.usb.rc \
     device/semc/haida/prebuilt/bootrec-device:root/sbin/bootrec-device \
     device/semc/haida/prebuilt/hw_config.sh:system/etc/hw_config.sh \
     device/semc/haida/prebuilt/pre_hw_config.sh:root/pre_hw_config.sh \

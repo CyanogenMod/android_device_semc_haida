@@ -1,12 +1,16 @@
 # Prebuilt kl keymaps
-usr/idc/cy8ctma300_touch.idc
+usr/keychars/qwerty.kcm.bin
 usr/keylayout/atdaemon.kl
 usr/keylayout/AVRCP.kl
 usr/keylayout/msm_pmic_pwr_key.kl
 usr/keylayout/pm8058-keypad.kl
+usr/keylayout/qwerty.kl
 usr/keylayout/simple_remote.kl
+usr/keychars/us104-keyboard.kcm.bin
+usr/keylayout/us104-keyboard.kl
+usr/keylayout/usb_mouse.kl
 
-## RIL related stuff
+## RIL related stuff 
 lib/libril.so
 bin/port-bridge
 bin/qmuxd
@@ -36,11 +40,13 @@ lib/libnetmgr.so
 lib/libqdp.so
 bin/netmgrd
 
+
 ## Camera proprietaries
-lib/hw/camera.semc.so
+etc/permissions/android.hardware.camera.front.xml
 lib/liboemcamera.so
 lib/libmmjpeg.so
-lib/libmmipl.so
+lib/libmmipl.so 
+lib/libcamera.so
 lib/libcamera_clientsemc.so
 lib/libcald_client.so
 lib/libcald_debugger.so
@@ -62,20 +68,13 @@ usr/semc/camera/LGI08BN0_IMX105.dat
 usr/semc/camera/LGI08BN1.dat
 usr/semc/camera/LGI08BN1_DW9714.dat
 usr/semc/camera/LGI08BN1_IMX105.dat
-usr/semc/camera/KMO05BN0_BH6476.dat
-usr/semc/camera/KMO05BN0.dat
-usr/semc/camera/KMO05BN0_IMX072.dat
 usr/semc/camera/LM3560_01_flash.dat
-usr/semc/camera/LM3560_00_flash.dat
 usr/semc/camera/SOD08BN0.dat
 usr/semc/camera/SOD08BN0_DW9714.dat
 usr/semc/camera/SOD08BN0_IMX073.dat
 usr/semc/camera/SOD08BN1.dat
 usr/semc/camera/SOD08BN1_DW9714.dat
 usr/semc/camera/SOD08BN1_IMX105.dat
-usr/semc/camera/STW05BN0_BH6476.dat
-usr/semc/camera/STW05BN0.dat
-usr/semc/camera/STW05BN0_IMX072.dat
 
 ## FIRMWARE
 etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs
@@ -97,14 +96,14 @@ etc/firmware/vidc_720p_vc1_dec_mc.fw
 etc/firmware/yamato_pfp.fw
 etc/firmware/yamato_pm4.fw
 
+
 ## WIFI & BT TI1271
 bin/nvimport
-bin/calibrator
-lib/libnl.so
 etc/init.qcom.bt.sh
-etc/tiwlan.ini
-etc/firmware/wl1271-fw-multirole-roc.bin
-etc/wifi/hostapd.conf
+etc/wifi/tiwlan.ini
+etc/wifi/tiwlan_firmware.bin
+etc/wifi/softap/tiwlan_ap.ini
+etc/wifi/softap/tiwlan_firmware_ap.bin
 
 ## Other libraries and proprietary binaries
 lib/libaudioalsa.so
@@ -115,22 +114,17 @@ bin/akmd8975
 bin/touchd
 bin/chargemon
 lib/libmiscta.so
-lib/libv8.so
-
-## Adreno 200 files
-lib/libC2D2.so
-lib/libOpenVG.so
-lib/libgsl.so
-lib/libsc-a2xx.so
-lib/egl/eglsubAndroid.so
-lib/egl/libGLESv1_CM_adreno200.so
-lib/egl/libq3dtools_adreno200.so
-lib/egl/libEGL_adreno200.so
-lib/egl/libGLESv2_adreno200.so
 
 #Touch firmware
 etc/firmware/touch_hallon_hitachi.hex
 etc/firmware/touch_hallon_sony.hex
+
+## Adreno 200 files
+lib/libgsl.so
+lib/egl/libGLESv1_CM_adreno200.so
+lib/egl/libq3dtools_adreno200.so
+lib/egl/libEGL_adreno200.so
+lib/egl/libGLESv2_adreno200.so
 
 #ANT+
 lib/libanthal.so
