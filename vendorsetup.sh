@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo haida-eng
+add_lunch_combo cm_haida-eng
