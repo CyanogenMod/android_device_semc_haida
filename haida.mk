@@ -25,10 +25,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/semc/haida/recovery/bootrec-device:recovery/bootrec-device
 
-# Bluetooth config
-PRODUCT_COPY_FILES += \
-    device/semc/haida/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
-
 # Device specific configs
 PRODUCT_COPY_FILES += \
     device/semc/haida/config/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
