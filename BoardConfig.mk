@@ -2,7 +2,7 @@
 -include vendor/semc/haida/BoardConfigVendor.mk
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/semc/msm7x30
+TARGET_KERNEL_SOURCE := kernel/semc/msm7x30-3.0
 TARGET_KERNEL_CONFIG := nAa_haida_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 
