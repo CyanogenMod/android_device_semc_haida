@@ -19,4 +19,4 @@ TARGET_QCOM_HDMI_OUT := false
 TARGET_OTA_ASSERT_DEVICE := MT11i,MT11a,haida
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/haida/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/haida/bluedroid
