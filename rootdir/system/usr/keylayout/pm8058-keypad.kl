@@ -1,4 +1,4 @@
-# this corresponds to kernel/arch/arm/mach-msm/keypad-hallon.c
+# this corresponds to kernel/arch/arm/mach-msm/keypad-haida.c
 #
 # defines for values are in frameworks/base/include/ui/KeycodeLabels.h
 
