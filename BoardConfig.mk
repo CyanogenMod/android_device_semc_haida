@@ -15,6 +15,8 @@
 -include device/semc/mogami-common/BoardConfigCommon.mk
 -include vendor/semc/haida/BoardConfigVendor.mk
 
+TARGET_SPECIFIC_HEADER_PATH += device/semc/haida/include
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/haida/bluedroid
 
