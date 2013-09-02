@@ -32,3 +32,6 @@ TARGET_OTA_ASSERT_DEVICE := MT11i,MT11a,haida
 
 # HDMI
 TARGET_QCOM_HDMI_OUT := false
+
+# CM Hardware tunables
+BOARD_HARDWARE_CLASS := device/semc/haida/cmhw
