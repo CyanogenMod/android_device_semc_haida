@@ -33,12 +33,15 @@ PRODUCT_PACKAGES += \
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=MT11i \
+    PRODUCT_DEVICE=MT11i \
     BUILD_FINGERPRINT="SEMC/MT11i_1254-2184/MT11i:4.0.4/4.1.B.0.587/tL1_3w:user/release-keys" \
     PRIVATE_BUILD_DESC="MT11i-user 4.0.4 4.1.B.0.587 tL1_3w test-keys"
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := cm_haida
-PRODUCT_DEVICE := haida
+
+# Release name
+PRODUCT_RELEASE_NAME := haida
 
 # Custom tag for unofficial builds
 TARGET_UNOFFICIAL_BUILD_ID := LegacyXperia
