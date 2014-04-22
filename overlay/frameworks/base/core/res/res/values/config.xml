@@ -20,6 +20,9 @@
 <!-- These resources are around just to allow their values to be customized
           for different hardware and product builds. -->
 <resources>
+    <!-- Indicate whether the SD card is accessible without removing the battery. -->
+    <bool name="config_batterySdCardAccessibility">true</bool>
+
     <bool name="config_deviceHasVariableButtonBrightness">true</bool>
 
     <!-- Hardware 'face' keys present on the device, stored as a bit field.
