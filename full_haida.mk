@@ -12,6 +12,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := $(call my-dir)
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-include $(CLEAR_VARS)
+# Inherit from haida device
+$(call inherit-product, device/semc/haida/haida.mk)
+
+# Boot Animation
+TARGET_SCREEN_HEIGHT := 854
+TARGET_SCREEN_WIDTH := 480
+
+# Set those variables here to overwrite the inherited values.
+PRODUCT_NAME := full_haida
+PRODUCT_DEVICE := haida
+PRODUCT_BRAND := SEMC
+PRODUCT_MANUFACTURER := Sony Ericsson
+PRODUCT_MODEL := MT11i
